@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html+css+homework4</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.gray {
+			background-color: lightgray;
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			overflow: hidden;
+		}
+
+		.lCir, .rCir {
+			background-color: yellow;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			border-radius: 50px;
+		}
+
+		.lCir {
+			left: -50px;
+			top: -50px;
+		}
+
+		.rCir {
+			right: -50px;
+			bottom: -50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="gray">
+		<div class="lCir"></div>
+		<div class="rCir"></div>
+	</div>
+</body>
+</html>
